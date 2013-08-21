@@ -13,11 +13,11 @@ group :development,  :test do
 	gem 'sqlite3'
 end
 
-group :assets do 
-	gem 'sass-rails', '~> 4.0.0'
-	gem 'coffee-rails', '~> 4.0.0'
-	gem 'uglifier', '>= 1.3.0'
-end
+
+gem 'sass-rails', '~> 4.0.0'
+gem 'coffee-rails', '~> 4.0.0'
+gem 'uglifier', '>= 1.3.0'
+
 
 #THESE ARE NOT IN ONE DAY TUTORIAL - IF ANY ISSUES, MAYBE JUST DELETE THESE :-)
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
