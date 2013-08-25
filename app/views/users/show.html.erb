@@ -1,0 +1,9 @@
+<h1><%= @user.name %></h1>
+
+<%= render 'pages/home' %>
+
+<div id ="pins">
+  <%= render @pins %>
+</div>
+
+<%= will_paginate @pins %>
